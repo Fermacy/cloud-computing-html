@@ -1,0 +1,62 @@
+/* style.css - basic styling for index.html */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f6f8;
+    color: #202733;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.page {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 24px 64px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 32px;
+    color: #16324f;
+}
+
+h2 {
+    font-size: 1.3rem;
+    color: #16324f;
+    border-bottom: 2px solid #2f6f63;
+    padding-bottom: 6px;
+    margin-top: 0;
+}
+
+section {
+    background-color: #ffffff;
+    border: 1px solid #dfe3e8;
+    border-radius: 6px;
+    padding: 20px 24px;
+    margin-bottom: 24px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 22px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #2f6f63;
+}
+
+a:hover {
+    color: #1e4b42;
+}
